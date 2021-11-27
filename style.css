@@ -1,0 +1,721 @@
+.nav {
+    width: -webkit-fill-available;
+    padding: 0 2rem;
+    max-height: 3rem;
+    overflow: hidden;
+    transition: 1.0s ease-in-out;
+    background: #010101;
+}
+
+.nav,
+.main-intro {
+    color: #e5e5e5;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    padding: 0rem 10px;
+    justify-content: flex-end;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    font-size: 2rem;
+}
+
+.nav .nav-items {
+    display: flex;
+}
+
+.nav .nav-brand a {
+    font-size: 2rem;
+    user-select: none;
+}
+
+.nav .nav-items .nav-link a {
+    padding: 0rem 0.5rem 0rem;
+    font-size: 1.2rem;
+    border-bottom: 2pt solid #01010100;
+}
+
+.nav .nav-items .nav-link a:hover {
+    color: #00a1c7;
+    border-bottom: 2pt solid #00a1c7;
+    transition: .5s ease-in-out;
+}
+
+.btn-toggle {
+    height: 2rem;
+    width: 3.5rem;
+    background-color: #ff5f5fe7;
+    position: fixed;
+    bottom: 5rem;
+    right: 0;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding: 6px;
+}
+
+.social_link-1:hover,
+.social_link-2:hover,
+.social_link-3:hover,
+.social_link-4:hover,
+.social_1:hover,
+.social_2:hover,
+.social_3:hover,
+.social_4:hover {
+    max-width: 2rem;
+    transition: .3s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    color: #535767;
+}
+
+.social_link-1,
+.social_link-2,
+.social_link-3,
+.social_link-4,
+.social_1,
+.social_2,
+.social_3,
+.social_4 {
+    margin: 0 .8rem;
+}
+
+.responsive {
+    max-height: 30rem;
+    transition: 1s ease-in-out;
+}
+
+
+/* main content starts here  */
+
+.main-intro {
+    background-image: url(assets/images/glowing_screen.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+
+.intro {
+    padding: 15rem 3.5rem 0px 2.5rem;
+}
+
+.name {
+    font-size: 1.8rem;
+}
+
+.skills {
+    font-size: 1.2rem;
+}
+
+.skills .wrap {
+    color: #ff5f5fe7;
+    text-shadow: 0 0 8px #b11827;
+}
+
+.explore-more {
+    display: grid;
+    justify-content: center;
+}
+
+.explore-more button {
+    border: 1.2pt solid #e5e5e5;
+    background: #0000;
+    border-radius: 0.6rem;
+    color: #e5e5e5;
+    padding: 0.5rem 1.2rem;
+    transition: .3s ease;
+}
+
+.explore-more button:hover {
+    text-shadow: 0 0 8px #00a1c7;
+    border: 1pt solid #0000;
+    background: linear-gradient(139deg, #ff0003, #009dbf);
+}
+
+.explore-more button a:hover {
+    color: #e5e5e5;
+}
+
+.arrow-down_wrapper {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.arrow-down_1,
+.arrow-down_2 {
+    cursor: vertical-text;
+    font-size: 0.8rem;
+    color: #989fc3;
+}
+
+.arrow-down_1 {
+    transform: rotate(90deg);
+    margin: 0px -45px -24px;
+}
+
+.arrow-down_2 {
+    margin: 3rem -45px;
+    transform: rotate(-90deg);
+}
+
+
+/* CV area starts from here */
+
+.profile-pic img {
+    max-width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.resume,
+.information {
+    margin: 0 2rem;
+}
+
+#resume span,
+#about .about-text {
+    color: #ff7979;
+    border-bottom: 2.5pt solid currentColor;
+    font-size: 1.5rem;
+}
+
+.resume_credentils_header,
+.id,
+.newsletter_logo {
+    font-size: 2.5rem
+}
+
+.resume_credentils_text,
+.data {
+    font-size: 1.3rem
+}
+
+
+/* CV area ends here */
+
+
+/*introduction area starts from here */
+
+.introduction_column-1,
+.introduction_column-2 {
+    margin: 1rem;
+}
+
+.introduction,
+footer {
+    padding: 3rem
+}
+
+.html-progress,
+.css-progress,
+.js-progress,
+.nodejs-progress,
+.wordpress-progress {
+    width: auto;
+    height: 8px;
+    background: #0e1317;
+    margin: 1rem 0;
+}
+
+.hire-me,
+.newsletter_input a,
+.download-cv {
+    border: 2pt solid currentColor;
+}
+
+.hire-me,
+.download-cv {
+    padding: .4rem
+}
+
+.download-cv {
+    color: #e5e5e5;
+    background: #000;
+    transition: .4s ease-in-out
+}
+
+.hire-me:hover {
+    color: #ff7979;
+    border: 2pt solid #ff7979;
+    transition: .3s ease-in-out
+}
+
+
+/* introduction area ends here */
+
+
+/* footer area starts from here */
+
+footer {
+    background-color: #0e1317;
+    color: #707e8d;
+}
+
+.project,
+.blog-post {
+    margin: 1rem 2rem;
+    list-style-type: none;
+    counter-reset: css-counter 0;
+}
+
+.post-link p,
+.project-link p {
+    counter-increment: css-counter 1;
+    font-weight: bolder;
+}
+
+.post-link p::before,
+.project-link p::before {
+    content: counter(css-counter);
+}
+
+#resume,
+#about,
+.contact,
+.CV {
+    margin: 2rem;
+    flex-wrap: nowrap
+}
+
+.contact-list {
+    margin: 1rem
+}
+
+.newsletter_input a {
+    margin: 0rem 1rem;
+    padding: .5rem;
+}
+
+.newsletter_input a:hover {
+    color: #0e1317;
+    transition: .4s ease-in-out;
+    background: #707e8d;
+    border: 2pt solid #707e8d
+}
+
+.newsletter_input a,
+.newsletter_input input {
+    border-radius: .5rem
+}
+
+.newsletter_input input {
+    padding: 0 1rem
+}
+
+.nav {
+    width: -webkit-fill-available;
+    padding: 0 2rem;
+    max-height: 3rem;
+    overflow: hidden;
+    transition: 1.0s ease-in-out;
+    background: #010101;
+}
+
+.nav,
+.main-intro {
+    color: #e5e5e5;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    padding: 0rem 10px;
+    justify-content: flex-end;
+}
+
+.nav .toggle-collapse .toggle-icons {
+    font-size: 2rem;
+}
+
+.nav .nav-items {
+    display: flex;
+}
+
+.nav .nav-brand a {
+    font-size: 2rem;
+    user-select: none;
+}
+
+.nav .nav-items .nav-link a {
+    padding: 0rem 0.5rem 0rem;
+    font-size: 1.2rem;
+    border-bottom: 2pt solid #01010100;
+}
+
+.nav .nav-items .nav-link a:hover {
+    color: #00a1c7;
+    border-bottom: 2pt solid #00a1c7;
+    transition: .5s ease-in-out;
+}
+
+.btn-toggle {
+    height: 2rem;
+    width: 3.5rem;
+    background-color: #ff5f5fe7;
+    position: fixed;
+    bottom: 5rem;
+    right: 0;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding: 6px;
+}
+
+.social_link-1:hover,
+.social_link-2:hover,
+.social_link-3:hover,
+.social_link-4:hover,
+.social_1:hover,
+.social_2:hover,
+.social_3:hover,
+.social_4:hover {
+    max-width: 2rem;
+    transition: .3s cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    color: #535767;
+}
+
+.social_link-1,
+.social_link-2,
+.social_link-3,
+.social_link-4,
+.social_1,
+.social_2,
+.social_3,
+.social_4 {
+    margin: 0 .8rem;
+}
+
+.responsive {
+    max-height: 30rem;
+    transition: 1s ease-in-out;
+}
+
+
+/* main content starts here  */
+
+.main-intro {
+    background-image: url(assets/images/glowing_screen.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+}
+
+.intro {
+    padding: 15rem 3.5rem 0px 2.5rem;
+}
+
+.name {
+    font-size: 1.8rem;
+}
+
+.skills {
+    font-size: 1.2rem;
+}
+
+.skills .wrap {
+    color: #ff5f5fe7;
+    text-shadow: 0 0 8px #b11827;
+}
+
+.explore-more {
+    display: grid;
+    justify-content: center;
+}
+
+.explore-more button {
+    border: 1.2pt solid #e5e5e5;
+    background: #0000;
+    border-radius: 0.6rem;
+    color: #e5e5e5;
+    padding: 0.5rem 1.2rem;
+    transition: .3s ease;
+}
+
+.explore-more button:hover {
+    text-shadow: 0 0 8px #00a1c7;
+    border: 1pt solid #0000;
+    background: linear-gradient(139deg, #ff0003, #009dbf);
+}
+
+.explore-more button a:hover {
+    color: #e5e5e5;
+}
+
+.arrow-down_wrapper {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.arrow-down_1,
+.arrow-down_2 {
+    cursor: vertical-text;
+    font-size: 0.8rem;
+    color: #989fc3;
+}
+
+.arrow-down_1 {
+    transform: rotate(90deg);
+    margin: 0px -45px -24px;
+}
+
+.arrow-down_2 {
+    margin: 3rem -45px;
+    transform: rotate(-90deg);
+}
+
+
+/* CV area starts from here */
+
+.profile-pic img {
+    max-width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.resume,
+.information {
+    margin: 0 2rem;
+}
+
+#resume span,
+#about .about-text {
+    color: #ff7979;
+    border-bottom: 2.5pt solid currentColor;
+    font-size: 1.5rem;
+}
+
+.resume_credentils_header,
+.id,
+.newsletter_logo {
+    font-size: 2.5rem
+}
+
+.resume_credentils_text,
+.data {
+    font-size: 1.3rem
+}
+
+
+/* CV area ends here */
+
+
+/*introduction area starts from here */
+
+.introduction_column-1,
+.introduction_column-2 {
+    margin: 1rem;
+}
+
+.introduction,
+footer {
+    padding: 3rem
+}
+
+.html-progress,
+.css-progress,
+.js-progress,
+.nodejs-progress,
+.wordpress-progress {
+    width: auto;
+    height: 8px;
+    background: #0e1317;
+    margin: 1rem 0;
+}
+
+.hire-me,
+.newsletter_input a,
+.download-cv {
+    border: 2pt solid currentColor;
+}
+
+.hire-me,
+.download-cv {
+    padding: .4rem
+}
+
+.download-cv {
+    color: #e5e5e5;
+    background: #000;
+    transition: .4s ease-in-out
+}
+
+.hire-me:hover {
+    color: #ff7979;
+    border: 2pt solid #ff7979;
+    transition: .3s ease-in-out
+}
+
+
+/* introduction area ends here */
+
+
+/* footer area starts from here */
+
+footer {
+    background-color: #0e1317;
+    color: #707e8d;
+}
+
+.project,
+.blog-post {
+    margin: 1rem 2rem;
+    list-style-type: none;
+    counter-reset: css-counter 0;
+}
+
+.post-link p,
+.project-link p {
+    counter-increment: css-counter 1;
+    font-weight: bolder;
+}
+
+.post-link p::before,
+.project-link p::before {
+    content: counter(css-counter);
+}
+
+#resume,
+#about,
+.contact,
+.CV {
+    margin: 2rem;
+    flex-wrap: nowrap
+}
+
+.contact-list {
+    margin: 1rem
+}
+
+.newsletter_input a {
+    margin: 0rem 1rem;
+    padding: .5rem;
+}
+
+.newsletter_input a:hover {
+    color: #0e1317;
+    transition: .4s ease-in-out;
+    background: #707e8d;
+    border: 2pt solid #707e8d
+}
+
+.newsletter_input a,
+.newsletter_input input {
+    border-radius: .5rem
+}
+
+.newsletter_input input {
+    padding: 0 1rem
+}
+
+.signature {
+    background: #0e1317;
+    color: #707e8d;
+    font-size: 0.75rem;
+    padding: 1rem
+}
+
+@media only screen and (max-width:750px) {
+    .nav .nav-menu,
+    .contact,
+    .nav-items {
+        flex-direction: column;
+    }
+    .nav-link,
+    .social {
+        margin: 4px 1rem;
+    }
+    .nav .toggle-collapse {
+        display: initial;
+        margin-right: auto;
+    }
+    .CV {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem;
+        padding: 0;
+    }
+    .id {
+        font-size: 2rem
+    }
+}
+
+@media screen and (max-width:380px) {
+    .CV {
+        margin: .5rem 0rem;
+    }
+    .introduction {
+        padding: .5rem;
+    }
+    .newsletter_input {
+        flex-direction: column;
+    }
+    .newsletter_input input {
+        padding: .5rem 1rem
+    }
+    .newsletter_input a {
+        margin: .5rem 3rem
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .nav .nav-menu,
+    .contact,
+    .nav-items {
+        flex-direction: column;
+    }
+    .nav-link,
+    .social {
+        margin: 4px 1rem;
+    }
+    .nav .toggle-collapse {
+        display: initial;
+        margin-right: auto;
+    }
+    .CV {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem;
+        padding: 0;
+    }
+    .id {
+        font-size: 2rem
+    }
+}
+
+@media screen and (max-width:680) {}
+
+@media screen and (max-width:600) {}
+
+@media screen and (max-width:320px) {
+    .CV {
+        margin: .5rem 0rem;
+    }
+    .introduction {
+        padding: .5rem;
+    }
+}

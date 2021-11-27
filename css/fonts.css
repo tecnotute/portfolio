@@ -1,0 +1,58 @@
+/* adding custom fonts through css in html code starts here ------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: comfortaa;
+    src: url(../assets/fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: montseerat;
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(../assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: play-fair;
+    src: url(../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+/* global styles for fonts */
+
+.font-comfortaa {
+    font-family: comfortaa;
+}
+
+.font-lato {
+    font-family: lato;
+}
+
+.font-montseerat {
+    font-family: montseerat;
+}
+
+.font-open-sans {
+    font-family: open-sans;
+}
+
+.font-oswald {
+    font-family: oswald;
+}
+
+.font-play-fair {
+    font-family: play-fair;
+}
